@@ -1,0 +1,51 @@
+/* Full-length prompt reading. Overrides earlier compact card styles. */
+.collection-layout{grid-template-columns:240px minmax(0,1fr);gap:32px}
+.collection-main{min-width:0}
+.chapter-button{font-size:13px;padding:11px 10px;color:#bac5af}
+.chapter-button .chapter-count{font-size:11px;color:#a5b398}
+.chapter-button .chapter-num{font-size:12px;color:#9baa8d}
+.sidebar-title{font-size:13px}
+.results-toolbar h3{font-size:18px}
+.results-toolbar #result-count{font-size:13px;color:#c6d9af}
+.sort-label,.sort-label select{font-size:12px}
+.search-box input{font-size:15px}.part-tab{font-size:13px}
+.prompt-grid{grid-template-columns:minmax(0,1fr);gap:24px}
+.prompt-card{min-height:0;padding:27px 28px 21px;border-color:#46513b;border-radius:14px}
+.prompt-card:hover{transform:none;border-color:#8a9e73;box-shadow:0 8px 28px #0002}
+.card-meta{font-size:12px;letter-spacing:.7px;color:#bacda6;padding-right:40px;gap:10px}
+.card-page{font-size:12px;letter-spacing:0;color:#c5d3b7;margin-left:8px}
+.card-save{top:17px;right:17px;padding:12px;min-width:44px;min-height:44px;color:#b3c59e}
+.card-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:20px}
+.card-heading h4{margin:0;min-width:0}
+.card-title{font-size:21px;line-height:1.6;font-weight:600;min-height:0;margin:0;letter-spacing:-.5px;color:#f0f5e9}
+.card-context{font-size:14px;line-height:1.85;color:#bec9b4;margin:12px 0 19px;word-break:keep-all;overflow-wrap:anywhere}
+.card-preview{display:block;-webkit-line-clamp:unset;-webkit-box-orient:initial;overflow:visible;white-space:pre-wrap;word-break:normal;overflow-wrap:anywhere;font-size:16px;line-height:1.95;color:#edf3e5;background:#10170e;border:1px solid #38482d;border-radius:9px;padding:23px 25px;margin:0;min-height:0;max-height:none;user-select:text}
+.card-bottom{margin-top:18px;padding-top:16px;border-color:#3c4734}
+.tool-label{font-size:13px;color:#c0d0af;max-width:65%;white-space:normal;line-height:1.6}
+.card-copy{font-size:13px;padding:10px 14px;min-height:44px;gap:8px;color:#192513;background:#d6e8bb;border:1px solid #d6e8bb;flex-shrink:0;white-space:nowrap}
+.card-copy .icon{width:16px;height:16px}.card-copy:hover{background:#edf7dc;border-color:#edf7dc}
+.load-more{font-size:14px;min-height:48px}
+.chapter-intro h4{font-size:17px}.chapter-intro p{font-size:12px}
+#dialog-text{font-size:16px;color:#edf3e5;line-height:1.95}
+.context-box p{font-size:14px;color:#bdccb0}.dialog-tip{font-size:12px}
+@media(max-width:1100px){
+ .collection-layout{grid-template-columns:200px minmax(0,1fr);gap:24px}
+ .card-heading{align-items:flex-start}.top-copy{font-size:12px;padding:10px 12px}
+ .part-tab{font-size:12px}.card-title{font-size:20px}
+}
+@media(max-width:760px){
+ .collection-layout{display:block}.chapter-button{font-size:12px;min-height:44px}
+ .search-box input{font-size:13px}.part-tab{font-size:12px;min-height:44px}
+ .prompt-grid{grid-template-columns:minmax(0,1fr);gap:20px}
+ .prompt-card{padding:22px 18px 18px;min-height:0}
+ .card-meta,.card-page{font-size:11px}.card-meta{gap:7px;padding-right:34px}
+ .card-save{top:10px;right:9px}.card-heading{display:block;margin-top:17px}
+ .card-title{font-size:19px;min-height:0}.top-copy{margin-top:14px;font-size:13px}
+ .card-context{font-size:13px;line-height:1.85;margin:15px 0}
+ .card-preview{font-size:16px;line-height:1.9;padding:17px 15px;min-height:0}
+ .card-copy{font-size:13px;min-height:44px;padding:10px 12px}
+ .tool-label{font-size:12px;max-width:58%}.card-bottom{gap:10px}
+ .results-toolbar h3{font-size:16px}.results-toolbar #result-count{font-size:12px}
+ .sort-label{font-size:0}.sort-label select{font-size:12px;max-width:123px}
+ #dialog-text{font-size:16px}.context-box p{font-size:13px}
+}
